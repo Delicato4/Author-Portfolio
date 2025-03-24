@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@layer components {
+  .font-playfair {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+theme {
+  --color-beige: #acab9e;
+  --color-brown: #896a58;
+  --color-darkbrown: #2a2420;
+  --color-gray: #d9d8d5;
+  --color-green: #567257;
+}
