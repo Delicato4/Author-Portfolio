@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ['./index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -8,7 +8,7 @@ module.exports = {
       },
     },
   },
-  screen:{
+  screens:{
     sm: '640px',
     md: '768px',
     lg: '1024px',
